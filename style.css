@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+	background-color: #a0b5e8;
+}
+.logo {
+	display: flex;
+	padding-right: 25px;
+}
+.logo img {
+	height: 140px;
+}
+.baner > img {
+	width: 57;
+	margin: auto;
+	border-radius: 20px;
+}
+.logo h1 {
+	padding-left: 25px;
+	font-weight: lighter;
+}
+.baner,
+.menu,
+.stopka {
+	background-color: #c3d9ee;
+}
+.baner,
+.stopka {
+	padding: 25px;
+}
+.menu,
+.glowna {
+	border-radius: 20px;
+	padding: 25px;
+	margin: 25px;
+}
+.glowna {
+	background-color: white;
+	width: 100%;
+	margin-right: 25px;
+}
+.baner,
+.kontener {
+	display: flex;
+}
+.menu {
+	width: 17%;
+}
+.menu a {
+	text-align: center;
+	list-style: none;
+	background-color: #a0b5e8;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+.menu a:visited {
+	color: black;
+}
+.menu a:hover {
+	background-color: hotpink;
+	color: white;
+}
+.menu img {
+	width: 200px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+.glowna img {
+	display: block;
+	margin: auto;
+}
+.wiersz {
+	font-style: italic;
+	text-align: center;
+}
