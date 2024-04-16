@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="quiz_patron.exe" version="1.0.0.4" publicKeyToken="f6336e9f3e4577a3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="quiz_patron" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="quiz_patron.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="quiz_patron.exe" size="54240">
+      <assemblyIdentity name="quiz_patron" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZcweX/4o2c8lQk1kOKw5OXTk9YjnXNvbNKA3q17xjn0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="quiz_patron.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-62D0C5J\aleks" issuerKeyHash="5d03490dd005d9b9320c540639fab0173d4b61b7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nSBeXX58Vu+3W1TKy3uPI8YtobwogYpbM6FfYabOP0w=</DigestValue></Reference></SignedInfo><SignatureValue>j8qmp6KXZuOAu+j3i7e2M40IT5dIUvOyJtSooDAK0c62QRK7XiXbg/tiMGO5eOtoFr96/hfSuirCqIJdlJy+OdqtZ/mfVsYKN6PnScvXiN7g+Ayeyx0dfheJp2Q+3gPgIiwg7avF4679hTTr7G6iKy1wQ6HhjG28+wuN4NhqTT8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x8hWAgOIjmMDxr19qDm6Cj5c2VhK2UtJAF6qqhEw9SGNrutDUjzB/1WV4+lQNkhKZ+byr0sjqLxrwUXiEAt+fkkUa5r6TAOtXm9HwENz3e5R6n8wk6eJYVk2J/WI9RQddLHjq2J4SRp9SmIGjHcZP/INiDj0ZsUfKyhPT/lFnpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4c3fcea6615fa1335b8a8128bca12dc6238f7bcbca545bb7ef567c7e5d5e209d" Description="" Url=""><as:assemblyIdentity name="quiz_patron.exe" version="1.0.0.4" publicKeyToken="f6336e9f3e4577a3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-62D0C5J\aleks</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>67TFL8tx4ErKIFL/CJoCyRl2SI3zP3g9YHfhTPBXpw4=</DigestValue></Reference></SignedInfo><SignatureValue>LpQkMURLtLbfBvIOPA3TzAezcHvx6xXDkC2UhQjFY314SORKam2cM17AcOTTXWnOEKoMxxuxzkb4IGUMQaMBtWF5200yuHO3Kq7fIGFDHt+bI+UenSRMtA0visNtID6gj4Bya9g4alZxEp9u5/xMS4veNEB3kJqCrrKgnPMfO4o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x8hWAgOIjmMDxr19qDm6Cj5c2VhK2UtJAF6qqhEw9SGNrutDUjzB/1WV4+lQNkhKZ+byr0sjqLxrwUXiEAt+fkkUa5r6TAOtXm9HwENz3e5R6n8wk6eJYVk2J/WI9RQddLHjq2J4SRp9SmIGjHcZP/INiDj0ZsUfKyhPT/lFnpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQMXsvJirrWL1HTyTuPdSR6DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAMgBEADAAQwA1AEoAXABhAGwAZQBrAHMwHhcNMjQwNDExMDk0NzQ4WhcNMjUwNDExMTU0NzQ4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAMgBEADAAQwA1AEoAXABhAGwAZQBrAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMfIVgIDiI5jA8a9fag5ugo+XNlYStlLSQBeqqoRMPUhja7rQ1I8wf9VlePpUDZISmfm8q9LI6i8a8FF4hALfn5JFGua+kwDrV5vR8BDc93uUep/MJOniWFZNif1iPUUHXSx46tieEkafUpiBox3GT/yDYg49GbFHysoT0/5RZ6VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAe9iTRsl78R63qoPDYN564sZpeWAKJV0MOXapLAJacqpdj8M48y4QLecxvdHI0pYS5+aqAPC6R3KMtTIQ6DArrNDWDUlcc9H0bgpHIritE5Mr64pLO613ZP5/iFZAlY0D7uDZMm1HBXPes7rgb7TheLgu5V8EWPfTiqEcNhGOYnQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
